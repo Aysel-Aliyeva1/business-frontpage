@@ -1,0 +1,128 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar-nav {
+    margin-right: 0;
+}
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #FFF;
+}
+.h2p {
+    color: #787a7d;
+    font-size: 20px;
+}
+@media screen and (max-width: 1200px) {
+    h1 {
+        font-size: 34px;
+        width: 70% !important;
+    }
+    .h2p {
+        font-size: 18px;
+        width: 70%;
+    }
+}
+.header2 {
+    width: 83.33%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.buttongroup {
+    width: 310px;
+}
+@media screen and (max-width:576px) {
+    .h2btn {
+        width: 120%;
+        margin-left: -10%;
+        margin-bottom: 10px;
+    }
+    .h2p, h1 {
+        width: 100% !important;
+    }
+}
+.header {
+    background-color: #212529;
+}
+.navbar {
+    background-color: #212529;
+}
+.nlgrey:hover {
+    color: #b8babd !important;
+}
+.h2btn2 {
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+}
+.card-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+.card-img-top {
+    width: 70px;
+    height: 70px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.card1 {
+    border: none;
+}
+.c2h5 {
+    font-size: 15px;
+    color: rgb(97, 96, 96);
+}
+@media screen and (max-width: 992px) {
+    .col {
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+.card2 {
+    padding: 20px;
+}
+.fa-check {
+    font-size: 10px;
+    color: rgb(21, 129, 245);
+}
+.fa-xmark {
+    font-size: 10px;
+    color: gray;
+}
+.c2btnwhite {
+    color: #0D6EFD;
+    background-color: transparent;
+}
+.c2btnwhite:hover {
+    color: white;
+    background-color: #0D6EFD;
+}
+.c2btnblue:hover {
+    background-color: #1c60c7;
+}
+.c2btnwhite, .c2btnblue {
+    margin-top: 10px;
+}
+.cardtextlist {
+    line-height: 15px;
+}
+.pricingplans {
+    margin-bottom: 50px;
+    font-size: 21px;
+    font-weight: 200;
+}
+.quotetext {
+    float: left;
+}
+.cardd {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+.carddd {
+    margin-left: 15px;
+}
